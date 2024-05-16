@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Barra nav con mov.-->
+<script src='http://www.google.com/jsapi'></script>
+<script>
+google.load("prototype","1.7.0.0");
+google.load("scriptaculous", "1.9.0");
+</script>
+<!-- Barra nav con mov.--->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Conjunto patitas</title>
+
+</head>
+
+<a href='#outer-wrapper' onclick='new Effect.ScrollTo(&quot;outer-wrapper&quot;,{offset:-140}); return false'><img border='0' src='../IMG/Paw.jpg' style='position:fixed; margin-top: 0; right:0;' title='Ir arriba'/ class="paw"></a>
+
+
+<a href='#footer-wrapper' onclick='new Effect.ScrollTo(&quot;footer-wrapper&quot;,{offset:-140}); return false'><img border='0' src='../IMG/Paw.jpg' style='position:fixed; bottom:0; right:0;' title='Ir abajo'/ class="paw"></a>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../IMG/Logo.png" alt="logo conjunto patitas" class="logo">
+            </div>  
+        <nav>
+            <ul id="barra-nav">
+                <li>
+                    <a href="../INDEX/index.html" >Inicio</a>
+                    <a href="./nosotros.html" >Nosotros</a>
+                    <a href="./proceso-de-adopcion.html" >Proceso de Adopcion</a>
+                    <a href="./patitas-en-adopcion.html" >Patitas en Adopcion</a>
+                    <a href="./contacto.html" >Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="formulario">
+    <h2>Formulario de contacto</h2>
+        <form action="form-adopcion.php" method="post">
+            <div class="form-group">
+                <label for="">nombre y apellido</label>
+                <textarea name="" id="" cols="50" rows="1"></textarea></div>
+            <div class="form-group">
+                <label for="">telefono</label>
+                <textarea name="" id="" cols="50" rows="1"></textarea></div>
+            <div class="form-group">
+                <label for="">email</label>
+                <textarea name="" id="" cols="50" rows="1"></textarea></div>
+            <div class="form-group">
+                <p>metodo de contacto preferido</p>
+                <select name="tipo de contacto" id="tipo-de-contacto">
+                <option value="">email</option>
+                <option value="">telefono</option>
+                <option value="">me da igual</option></select></div>
+            <div class="form-group">
+                <p>motivo de contacto</p>
+                <select name="motivo-de-contacto" id="motivo-contacto">
+                    <option value="">felicitaciones</option>
+                    <option value="">reclamos y sugerencias</option>
+                    <option value="">problemas</option>
+                    <option value="">preguntas generales</option></select></div>
+            <div class="form-group">
+                <label for="">Comentario</label>
+                <textarea name="" id="" cols="50" rows="5"></textarea></div>
+                <button type="submit">Enviar</button>
+            </form>
+            </section>
+<section>
+
+    <h2>Conoce nuestra casa</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195925.30812592458!2d-70.67817789254504!3d-33.41384235092186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c9002258c185%3A0xfc16d0552919dbc9!2sGuarder%C3%ADa%20de%20Perros!5e0!3m2!1ses-419!2scl!4v1712678089344!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h2>Nuestras otras plataformas de contacto</h2>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" > <img src="../IMG/facebook.png" alt="" class="rrss"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img src="../IMG/instagram.png" alt="" class="rrss"></a>
+            <a href="conjuntopatitas@gmail.com" target="_blank"> <img src="../IMG/correo-electronico.png" alt="" class="rrss"></a>
+    </ul>
+
+</section>
+
+</body>
+</html>
